@@ -11,4 +11,17 @@ public class circle extends Shape{
 
     private int radius;
 
+    @Override
+    public String getColor() {
+        return color;
+    }
+
+    @Override
+    public void setColor(String color) {
+        this.color = "blue";
+    }
+
+    private String color;
+
+
 }
