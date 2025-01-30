@@ -3,6 +3,8 @@ package com.example.lavasurfer;
 
 // Abstract class extending Shape
 public abstract class TriangleShape extends Shape {
+
+    String color = "@colors/blue";
     private int base;
     private int height;
 
