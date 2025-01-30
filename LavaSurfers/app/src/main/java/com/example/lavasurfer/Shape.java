@@ -1,6 +1,6 @@
 package com.example.lavasurfer;
 
-public class Shape {
+public abstract class Shape {
     public int getX() {
         return x;
     }
