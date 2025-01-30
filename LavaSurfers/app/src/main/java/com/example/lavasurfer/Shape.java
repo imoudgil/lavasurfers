@@ -19,5 +19,15 @@ public abstract class Shape {
 
     private int x;
     private int y;
-    String color = "Red";
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = "red";
+    }
+
+    private String color;
+
 }
